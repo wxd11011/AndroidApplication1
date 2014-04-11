@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNIT 2</string>
+    
+    <!-- Button Title -->
+    <string name="btn1_title">BTN1</string>
+    <string name="btn2_title">BTN2</string>
+    <string name="btn3_title">BTN3</string>
+    <string name="btn4_title">Display 2nd Activity</string>   
+    <string name="btn5_title">Start Activity 3 For Result</string>
+    <string name="btn6_title">Exit</string>
+    <string name="btn_fragment">Fragment Activity</string>
+    <string name="btn_webbrowser_title">Web Browser</string>
+    <string name="btn_makecalls_title">Make Calls</string>
+    <string name="btn_showmap_title">Show Map</string>
+    <string name="btn_intentsactivity_title">IntentsActivity</string>
+    <string name="act2_btn1">Return to Main Activity</string>
+    
+    <!--Label Text-->
+    <string name="activity2_title">Unit2.Activity2</string>
+    <string name="act2_txt1">This is 2nd Activity</string>
+    <string name="activity3_title">Unit2.Activity3</string>
+    <string name="act3_txt1">This is 3rd Activity</string>
+    <string name="act_Fragment_title">Fragments</string>
+    <string name="act_IntentsActivity_title">IntentsActivity</string>
+    
+</resources>

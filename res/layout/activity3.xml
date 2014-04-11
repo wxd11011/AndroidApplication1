@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <TextView 
+        android:id="@+id/activity3_label1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/act3_txt1"
+    />
+<EditText
+    android:id="@+id/act3_edittxt1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button
+    android:id="@+id/act3.btn1"
+    android:text="OK"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="OK_onClick"
+    />
+
+</LinearLayout>

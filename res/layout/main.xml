@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <TextView
+        android:id="@+id/label_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+    />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1_title"
+        android:onClick="btn1_onClick"
+    />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2_title"
+        android:onClick="onClick2"
+    />
+    <Button 
+        android:id="@+id/btn_3"
+        android:text="@string/btn3_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick3"
+    /> 
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4_title"
+        android:onClick="onClick4"
+    />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn5_title"
+        android:onClick="onClick5"
+    />
+    <Button
+        android:id="@+id/btn_fragment"
+        android:text="@string/btn_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFragment"
+    />
+        <Button
+        android:id="@+id/btn_intentsActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_intentsactivity_title"
+        android:onClick="onClickIntentsActivity"
+        />
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="start notification exp"
+            android:onClick="onClickNotification"
+        />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn6_title"
+        android:onClick="onClick6"
+        />
+    
+        
+</LinearLayout>
+

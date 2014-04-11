@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wangxvdong.unit2"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Activity2" android:label="@string/activity2_title" >
+            <intent-filter>
+                <action android:name="com.wangxvdong.unit2.Activity2"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+            
+        <activity android:name="Activity3" android:label="@string/activity3_title">
+            <intent-filter>
+                <action android:name="com.wangxvdong.unit2.Activity3"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".FragmentMain" android:label="@string/act_Fragment_title">
+            <intent-filter>
+                <action android:name="com.wangxvodng.unit2.FragmentMain"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntentsActivity" android:label="@string/act_IntentsActivity_title">
+            <intent-filter>
+                <action android:name="com.wangxvdong.unit2.IntentsActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".wxdbrowser" android:label="WBrowser">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.wangxvdong.unit2.wxdbrowser"/>
+               
+                <category android:name="com.wangxvdong.unit2.Webapp"/>                
+                <data android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificationView" android:label="Details of notification">
+            <intent-filter>
+                <action android:name="com.wangxvdong.unit2.NotificationView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificationsActivity" android:label="Main Activity of notification">
+            <intent-filter>
+                <action android:name="com.wangxvdong.unit2.NotificationsActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
